@@ -19,16 +19,16 @@ body{
   display:flex;
   flex-direction:column;
 }
+ 
 
-/* ================= HERO ================= */
 
 .hero{
   height: 100vh;
   display: flex;
-  align-items: flex-start;   /* يبدأ من فوق */
-  justify-content: center;   /* يضل بالنص أفقي */
+  align-items: flex-start;   
+  justify-content: center;  
   text-align: center;
-  padding-top: 250px;        /* الفراغ اللي بدك ياه */
+  padding-top: 250px;      
 }
 
 .hero-content{
@@ -51,7 +51,7 @@ body{
   margin-bottom:35px;
 }
 
-/* highlight word */
+ 
 
 .highlight{
   font-family:'Georgia', serif;
@@ -62,7 +62,7 @@ body{
   text-underline-offset:6px;
 }
 
-/* ================= BUTTON ================= */
+ 
 
 .home-btn{
   display:inline-block;
@@ -81,7 +81,7 @@ body{
   transform:scale(1.05);
 }
 
-/* ================= TOP SOCIAL ================= */
+ 
 
 .top-social{
   position:fixed;
@@ -107,7 +107,7 @@ body{
   margin:0 15px;
 }
 
-/* ================= FOOTER ================= */
+ 
 
 .footer{
   width:100%;
