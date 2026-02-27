@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background-color:#0f001f;
+  background-image:
+    linear-gradient(to left, rgba(15,0,31,0) 0%, rgba(15,0,31,0.7) 70%, #0f001f 100%),
+    url("ss.jpg");
+  background-repeat:no-repeat;
+  background-position:right top;
+  background-size:600px auto;
+  color:white;
+  min-height:100vh;
+  overflow-x:hidden;
+  display:flex;
+  flex-direction:column;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;   /* يبدأ من فوق */
+  justify-content: center;   /* يضل بالنص أفقي */
+  text-align: center;
+  padding-top: 250px;        /* الفراغ اللي بدك ياه */
+}
+
+.hero-content{
+
+  transform: translateY(50px);
+}
+
+
+.hero h1{
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  transform: scaleY(1.1);
+}
+
+.hero p{
+  font-size:1.1rem;
+  font-weight:300;
+  line-height:1.6;
+  margin-bottom:35px;
+}
+
+/* highlight word */
+
+.highlight{
+  font-family:'Georgia', serif;
+  font-style:italic;
+  color:#c084fc;
+  text-decoration:underline;
+  text-decoration-thickness:3px;
+  text-underline-offset:6px;
+}
+
+/* ================= BUTTON ================= */
+
+.home-btn{
+  display:inline-block;
+  padding:10px 25px;
+  color:#ffffff;
+  border:1px solid white;
+  border-radius:25px;
+  font-weight:500;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.home-btn:hover{
+  background:white;
+  color:#4c1d95;
+  transform:scale(1.05);
+}
+
+/* ================= TOP SOCIAL ================= */
+
+.top-social{
+  position:fixed;
+  top:25px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:1000;
+}
+
+.top-social a{
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.top-social a:hover{
+  color:#c084fc;
+  text-decoration:underline;
+}
+
+.divider{
+  margin:0 15px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+  width:100%;
+  text-align:center;
+  padding:15px 0;
+  background:#0c0018;
+}
+
+.footer a{
+  color:#c084fc;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.footer a:hover{
+  text-decoration:underline;
+}
