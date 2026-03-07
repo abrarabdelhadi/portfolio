@@ -5,38 +5,236 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abrar Portfolio</title>
 
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="top-social">
-  <a href="https://www.linkedin.com/in/abrar-abdelhadi-7302b32b0" target="_blank">LinkedIn →</a>
-  <span class="divider">|</span>
-  <a href="https://github.com/abrarabdelhadi" target="_blank">GitHub →</a>
+  <img src="unnamed.jpg" class="top-logo" alt="Logo">
+  <!-- Side Navigation Buttons -->
+<div class="side-nav-icons">
+  <a href="#hero"><i class="bi bi-house-fill"></i></a>
+  <a href="#about"><i class="bi bi-person-fill"></i></a>
+  <a href="#projects"><i class="bi bi-code-slash"></i></a>
 </div>
+  <!-- Top Social Links -->
+  <div class="top-social">
+    <a href="https://www.linkedin.com/in/abrar-abdelhadi-7302b32b0" target="_blank">LinkedIn →</a>
+    <span class="divider">|</span>
+    <a href="https://github.com/abrarabdelhadi" target="_blank">GitHub →</a>
+  </div>
 
-<section class="hero">
-  <div class="hero-content">
-    <h1>
-      I create <span class="highlight">beautiful</span><br>
-      experiences
-    </h1>
+  <!-- Hero Section -->
+  <section id="hero" class="hero">    <div class="hero-content">
+      <span class="highlight">  I create a beautiful<br> experiences
+      </span>
+      <p>
+      I’m a passionate developer who blends creativity with clean code<br>
+      From university projects to real-world training, I’m constantly learning, building, and growing.</p>
+      <a href="#about" class="home-btn">take a peek</a>
+    </div>
+  </section>
 
+<section id="about" class="hero1">
+  <div class="hero-text">
+    <h5><span class="underline">HI THER</span>E!</h5>
+    <h1 class="highlight">I'M ABRAR</h1>
     <p>
-      Clean code Modern design Real impact.<br>
-      Passionate about turning ideas into responsive and interactive web experiences.
+      I’m a passionate web developer who loves creating clean and modern websites.
+      I enjoy learning new technologies and turning ideas into real digital experiences.
     </p>
+  </div>
 
-    <a href="index2.html" class="home-btn">Take a Peek</a>
+ <div class="hero-bottom">
+  <div class="container-sections">
+    
+    <!-- What I Do -->
+    <div class="what-i-do">
+      <h3>What I Do</h3>
+      <ul>
+        <li>
+          <div class="icon-circle"><i class="fas fa-laptop-code"></i></div>
+          <div class="text">
+            <h4>Front-End Development</h4>
+            <p>Building responsive and modern websites using HTML & CSS</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon-circle"><i class="fas fa-object-ungroup"></i></div>
+          <div class="text">
+            <h4>Responsive Web Design</h4>
+            <p>Creating structured layouts using Flexbox & Grid.</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
+          <div class="text">
+            <h4>Creative UI Styling</h4>
+            <p>Design-focused practice projects that combine structure and aesthetics.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="contact-me">
+      <h3>Contact Me</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+    <div class="contact-info  ">
+      <h3>Contact info</h3>
+      <p>Email: abrara26904@gmail.com</p>
+      <p>GitHub: github.com/abrar</p>
+      <p>Location: Jordan</p>
+    </div>
+  </div>
+
+</section>
+
+<section id="projects" class="projects">
+  <div class="project-card">
+    <input type="checkbox" id="card2" class="card-toggle">
+    <div class="card-inner">
+
+      <div class="card-front">
+        <img src="img/css.jpg" class="card-img">
+        <h3>CSS Introduction</h3>
+        <p>HTML practice projects with CSS design</p>
+        <label for="card2" class="flip-btn">View More</label>
+      </div>
+
+      <div class="card-back">
+        <h3>CSS Introduction Projects</h3>
+
+        <div class="sub-project">
+          <h4>Lists Project</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/css-introduction/image1.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/css-introduction">Repo GitHub</a>
+          </div>
+        </div>
+
+        <div class="sub-project">
+          <h4>Tables Project</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/css-introduction/image2.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/css-introduction">Repo GitHub</a>
+          </div>
+        </div>
+
+        <div class="sub-project">
+          <h4>Forms Project</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/css-introduction/image3.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/css-introduction">Repo GitHub</a>
+          </div>
+        </div>
+
+        <div class="sub-project">
+          <h4>Upload Practice</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/css-introduction/image4.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/css-introduction">Repo GitHub</a>
+          </div>
+        </div>
+
+        <label for="card2" class="flip-btn back-btn">Back</label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="project-card">
+    <input type="checkbox" id="card3" class="card-toggle">
+    <div class="card-inner">
+
+      <div class="card-front">
+        <img src="img/nth.jpg" class="card-img">
+        <h3>NTH-CHILD</h3>
+        <p>Using nth-child selectors in CSS</p>
+        <label for="card3" class="flip-btn">View More</label>
+      </div>
+
+      <div class="card-back">
+        <h3>NTH-CHILD Projects</h3>
+
+        <div class="sub-project">
+          <h4>Zigzag Layout</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/nth-child/index.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/nth-child">Repo GitHub</a>
+          </div>
+        </div>
+
+        <div class="sub-project">
+          <h4>Even & Odd Styling</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/nth-child/index2.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/nth-child">Repo GitHub</a>
+          </div>
+        </div>
+
+        <label for="card3" class="flip-btn back-btn">Back</label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="project-card">
+    <input type="checkbox" id="card4" class="card-toggle">
+    <div class="card-inner">
+
+      <div class="card-front">
+        <img src="img/grid.jpg" class="card-img">
+        <h3>GRID-FLEX</h3>
+        <p>Layout experiments</p>
+        <label for="card4" class="flip-btn">View More</label>
+      </div>
+
+      <div class="card-back">
+        <h3>GRID-FLEX Projects</h3>
+
+        <div class="sub-project">
+          <h4>Flex Layout</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/grid-flex/index.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/grid-flex">Repo GitHub</a>
+          </div>
+        </div>
+
+        <div class="sub-project">
+          <h4>Grid Layout</h4>
+          <div class="card-buttons">
+            <a href="https://abrarabdelhadi.github.io/grid-flex/index2.html">Live URL</a>
+            <a href="https://github.com/abrarabdelhadi/grid-flex">Repo GitHub</a>
+          </div>
+        </div>
+
+        <label for="card4" class="flip-btn back-btn">Back</label>
+      </div>
+
+    </div>
   </div>
 </section>
 
 <footer class="footer">
-  © 2026 Abrar Abdelhadi |
-  <a href="https://github.com/abrarabdelhadi" target="_blank">GitHub</a>
-</footer>
+    © 2026 Abrar Abdelhadi |
+    <a href="https://github.com/abrarabdelhadi" target="_blank">GitHub</a>
+  </footer>
 
 </body>
 </html>
