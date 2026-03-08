@@ -21,7 +21,7 @@ body {
   scroll-behavior: smooth;
 
   background-image:
-    linear-gradient(to left, rgba(15,0,31,0) 0%, rgba(15,0,31,0.7) 70%, #0f001f 100%),
+    linear-gradient(to left, rgba(15,0,31,0) 0%, rgba(15,0,31,0.3) 70%, #0f001f 100%),
     url("bbb.PNG");
   background-repeat: no-repeat;
   background-position: right top;
@@ -227,13 +227,13 @@ body {
 .text h4 {
   margin: 0;
   font-size: 1.1rem;
-  color: #614a63;
+  color: #f5edf6;
 }
 
 .text p {
   margin: 5px 0 0 0;
   font-size: 0.95rem;
-  color: #56264e;
+  color: #c1afbe;
 }
 
 /* Contact Me */
